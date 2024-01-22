@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  border: 1px solid #ddd;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  display: flex;
+  height: 80px;
+}
+.logo {
+  padding-left: 30px;
+}
+
+.navigation > ul {
+  display: flex;
+  padding: 0 40px 0 0;
+}
+.navigation > ul > li {
+  list-style: none;
+  margin: 15px;
+}
+.body {
+  padding: 0 30px;
+}
+.search {
+  margin: 20px 0;
+}
+.restroCard {
+  width: 200px;
+  border: 1px solid #dddd;
+  padding: 20px;
+  background: #f0f0f0;
+  margin: 5px;
+}
+.cardImg {
+  width: 200px;
+}
+.cardImg > img {
+  width: 100%;
+}
+.restroContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter {
+  margin: 10px 0;
+}
+.filterBtn {
+  cursor: pointer;
+  margin-left: 8px;
+}
+.shimmerContainer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.shimmeCard {
+  width: 200px;
+  border: 1px solid #dddd;
+  padding: 20px;
+  background: #f0f0f0;
+  margin: 5px;
+  height: 400px;
+}
+.loginBtn {
+  cursor: pointer;
+}
+.usercard {
+  border: 1px solid #dddd;
+  width: 499px;
+}
