@@ -11,7 +11,6 @@ const Error = () => {
             <h3>Something Went Wrong</h3>
             <p>{err.status}</p>
             <p>{err.statusText}</p>
-            
         </div>
     )
 }
